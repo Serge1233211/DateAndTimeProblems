@@ -5,7 +5,7 @@ import java.time.LocalDate;
 
 public class FridayThe13thChecker {
     public static void main(String[] args) {
-        LocalDate dateToCheck = LocalDate.of(2024, 4, 13); // Replace with your desired date
+        LocalDate dateToCheck = LocalDate.of(2024, 4, 13);
         boolean isFridayThe13th = checkFridayThe13th(dateToCheck);
         System.out.println("Is " + dateToCheck + " a Friday the 13th? " + isFridayThe13th);
     }
