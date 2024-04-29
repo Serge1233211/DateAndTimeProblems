@@ -6,8 +6,8 @@ import java.time.Period;
 public class AgeCalculator {
     public static void main(String[] args) {
         // Example usage:
-        LocalDate birthDate = LocalDate.of(1990, 5, 15); // Replace with the actual birthdate
-        LocalDate givenDate = LocalDate.of(2024, 4, 29); // Replace with the desired date
+        LocalDate birthDate = LocalDate.of(1990, 5, 15); 
+        LocalDate givenDate = LocalDate.of(2024, 4, 29);
 
         int age = calculateAge(birthDate, givenDate);
         if (age >= 0) {
